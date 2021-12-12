@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  background-color: #333333;
+}
+
+.menu_header {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding: .5em 0px;
+  background-color: #cc0dcc;
+  color: black;
+}
+
+.menu_header h1 {
+  font-size: 48px;
+}
+
+.menu_header p {
+  font-size: 18px;
+}
+
+a.menu_item {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  display: block;
+  background-color: black;
+}
+
+img.menu_item {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+}
+
+img.menu_item:hover {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+  opacity: 0.5;
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
